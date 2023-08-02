@@ -6,6 +6,7 @@ from sqlalchemy import text
 from flask import jsonify
 from crud_tareas.models import tarea_model, tarea_detalle_model
 
+#git
 class ListadoTareas(Resource):
     def get(self):
         try:

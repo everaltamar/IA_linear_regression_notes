@@ -65,6 +65,7 @@ class CrearTarea(Resource):
         except Exception as e:
             return str("Error interno")
 
+#comentario para git
 class EliminarTarea(Resource):
     def post(self):
         try:

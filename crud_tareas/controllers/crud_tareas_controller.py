@@ -21,9 +21,9 @@ class CrearTarea(Resource):
     def post(self):
         try:
             parser = reqparse.RequestParser()
-            parser.add_argument('tarea_nombre', type=str)
-            parser.add_argument('tarea_descripcion', type=str)
-            parser.add_argument('create_by', type=str)
+            parser.add_argument('tarea_nombre', type=str, location="json")
+            parser.add_argument('tarea_descripcion', type=str, location="json")
+            parser.add_argument('create_by', type=str, location="json")
 
             args = parser.parse_args()
             fecha = datetime.now()

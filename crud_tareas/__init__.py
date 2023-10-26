@@ -17,5 +17,7 @@ app.config.from_object(app_config[config_name])
 db = SQLAlchemy(app)
 
 from crud_tareas.routes import crud_tareas_routes
+from crud_tareas.controllers import tarea_automatica_prueba
+
 
 

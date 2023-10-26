@@ -106,7 +106,7 @@ class EliminarTarea(Resource):
             
             db.session.commit()            
             
-            return "Tarea eliminada exitosamente"
+            return "Tarea eliminada exitosamente !!! :) "
 
 
         except Exception as e:

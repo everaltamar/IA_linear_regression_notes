@@ -1,1 +1,12 @@
-pycache/
+dev_rfc.trc
+env/
+pycache
+*.pyc
+dist/
+*.egg-info
+/pycache
+**pycache**
+/__pycache__/
+settings.json
+Dockerfile.dev
+.vscode

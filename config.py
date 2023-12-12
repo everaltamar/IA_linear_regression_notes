@@ -1,5 +1,5 @@
 import logging
-from sqlalchemy.pool import NullPool
+#from sqlalchemy.pool import NullPool
 
 class Config:
     """ Common configurations """

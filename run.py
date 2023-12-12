@@ -1,4 +1,4 @@
-from crud_tareas import app
+from regresion_lineal_notas import app
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
